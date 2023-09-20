@@ -181,7 +181,7 @@ body.lock {
     .about-img {
         background-image: url(images/about-img.png);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         background-size: cover;
         box-shadow: 4px 4px 40px 0px #b366404d;
         padding: 87px 160px;
@@ -1223,6 +1223,9 @@ body.lock {
             width: 90%;
         }
         .about-img {
+            background-image: none;
+            background-color: #efefef;
+
             .about-img-subtitle {
                 font-size: 16px;
                 line-height: 19px;
@@ -1433,7 +1436,7 @@ body.lock {
 }
 
 // --- Mobile Small ---
-@media (max-width: 380px) {
+@media (max-width: 386px) {
     .introduce-section {
         .introduce-section-text-wrapper {
             .introduce-section-text {
@@ -1449,6 +1452,11 @@ body.lock {
         padding: 40px 0px;
         .about-section-bg {
             background-position: 30% 100%, 35% 115%;
+        }
+        .about-img {
+            .about-img-title {
+                font-size: 34px;
+            }
         }
     }
     .conditions-section {

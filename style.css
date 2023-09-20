@@ -313,7 +313,7 @@ body.lock {
 .about-section .about-img {
   background-image: url(images/about-img.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   box-shadow: 4px 4px 40px 0px rgba(179, 102, 64, 0.3019607843);
   padding: 87px 160px;
@@ -1292,6 +1292,10 @@ body.lock {
   .about-section .about-section-list {
     width: 90%;
   }
+  .about-section .about-img {
+    background-image: none;
+    background-color: #efefef;
+  }
   .about-section .about-img .about-img-subtitle {
     font-size: 16px;
     line-height: 19px;
@@ -1484,7 +1488,7 @@ body.lock {
     width: 80px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 386px) {
   .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-title {
     font-size: 40px;
     font-weight: 700;
@@ -1495,6 +1499,9 @@ body.lock {
   }
   .about-section .about-section-bg {
     background-position: 30% 100%, 35% 115%;
+  }
+  .about-section .about-img .about-img-title {
+    font-size: 34px;
   }
   .conditions-section .conditions-section-bg {
     background-position: 0% -2%, 130% 55%;
