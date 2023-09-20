@@ -115,15 +115,13 @@ introduceBtn.addEventListener("click", () => {
     });
 });
 
-// ---
-
 // --- Sliders ---
 
 $(document).ready(function () {
     $(".housing-slider").slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         dots: true,
         variableWidth: true,
         responsive: [
@@ -162,25 +160,11 @@ $(document).ready(function () {
     $(".review-slider").slick({
         infinite: false,
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         dots: true,
         variableWidth: true,
         adaptiveHeight: true,
         responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 2,
-                },
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
             {
                 breakpoint: 576,
                 settings: {

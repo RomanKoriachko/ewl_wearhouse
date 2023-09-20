@@ -298,7 +298,7 @@ body.lock {
     padding-bottom: 60px;
     text-align: center;
     .housing-bg {
-        background-image: url(images/housing-bg2.png);
+        // background-image: url(images/housing-bg2.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: 60%;
@@ -375,9 +375,6 @@ body.lock {
     .review-section-row {
         position: relative;
         gap: 48px;
-        // .review-text {
-        //     width: 55%;
-        // }
         .review-title {
             @include fonts.h2();
             color: black;
@@ -395,7 +392,6 @@ body.lock {
                 border: 1px solid #ebebeb;
                 border-radius: 6px;
                 background: #fbfbfb;
-                // margin: 0px 15px;
                 max-width: 465px;
                 min-width: 330px;
                 .review-wrapper-text {
@@ -422,27 +418,6 @@ body.lock {
                         font-weight: 500;
                         line-height: 19px;
                         color: #979797;
-                    }
-                }
-                .user-data-wrapper {
-                    .user-img {
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                    }
-                }
-            }
-            .review-wrapper-item-1 {
-                .user-data-wrapper {
-                    .user-img {
-                        background-image: url(images/user-img-1.png);
-                    }
-                }
-            }
-            .review-wrapper-item-2 {
-                .user-data-wrapper {
-                    .user-img {
-                        background-image: url(images/user-img-2.png);
                     }
                 }
             }
@@ -473,6 +448,24 @@ body.lock {
                         background-repeat: no-repeat;
                         filter: blur(1px);
                     }
+                    .user-1-img {
+                        background-image: url(images/user-img-1.jpg);
+                    }
+                    .user-2-img {
+                        background-image: url(images/user-img-2.jpg);
+                    }
+                    .user-3-img {
+                        background-image: url(images/user-img-3.png);
+                    }
+                    .user-4-img {
+                        background-image: url(images/user-img-4.jpg);
+                    }
+                    .user-5-img {
+                        background-image: url(images/user-img-5.jpg);
+                    }
+                    .user-6-img {
+                        background-image: url(images/user-img-6.jpg);
+                    }
                     .user-name {
                         @include fonts.t4();
                         font-size: 20px;
@@ -485,28 +478,6 @@ body.lock {
                         font-weight: 500;
                         line-height: 19px;
                         color: #979797;
-                    }
-                }
-            }
-            .review-slider-item-1 {
-                margin-left: 0px;
-                .user-data-wrapper {
-                    .user-img {
-                        background-image: url(images/user-img-1.png);
-                    }
-                }
-            }
-            .review-slider-item-2 {
-                .user-data-wrapper {
-                    .user-img {
-                        background-image: url(images/user-img-2.jpg);
-                    }
-                }
-            }
-            .review-slider-item-3 {
-                .user-data-wrapper {
-                    .user-img {
-                        background-image: url(images/user-img-3.jpg);
                     }
                 }
             }
@@ -1314,7 +1285,7 @@ body.lock {
                 }
             }
             .slick-prev {
-                left: 30%;
+                left: 20%;
                 transform: translateY(-40%);
                 background-image: url(images/arrow-left-mobile.svg);
                 background-position: 48% 50%;
@@ -1324,7 +1295,7 @@ body.lock {
                 }
             }
             .slick-next {
-                right: 30%;
+                right: 20%;
                 transform: translateY(-40%);
                 background-image: url(images/arrow-right-mobile.svg);
                 background-position: 52% 50%;
