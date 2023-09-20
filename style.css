@@ -244,7 +244,7 @@ body.lock {
   top: 50%;
   transform: translateY(-50%);
   text-align: left;
-  width: 55%;
+  width: 60%;
 }
 .introduce-section .introduce-section-text .introduce-section-title {
   font-family: "Roboto Slab", serif;
@@ -1231,6 +1231,28 @@ body.lock {
     gap: 21px;
   }
 }
+@media (max-width: 770px) {
+  .introduce-section .introduce-section-text-wrapper .introduce-section-text {
+    text-align: center;
+    width: 93%;
+    left: 16px;
+  }
+  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+  }
+  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-subtitle > span {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+}
 @media (max-width: 576px) {
   .main-btn {
     padding: 14px 30px;
@@ -1248,21 +1270,6 @@ body.lock {
     text-align: center;
     width: 93%;
     left: 16px;
-  }
-  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-title {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 68px;
-  }
-  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-subtitle {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 36px;
-  }
-  .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-subtitle > span {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
   }
   .introduce-section .introduce-section-text-wrapper .introduce-section-text .introduce-section-btn {
     width: 100%;
