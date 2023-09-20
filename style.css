@@ -647,7 +647,7 @@ body.lock {
   background-image: url(images/user-img-2.jpg);
 }
 .review-section .review-section-row .review-slider .review-slider-item .user-data-wrapper .user-3-img {
-  background-image: url(images/user-img-3.png);
+  background-image: url(images/user-img-3.jpg);
 }
 .review-section .review-section-row .review-slider .review-slider-item .user-data-wrapper .user-4-img {
   background-image: url(images/user-img-4.jpg);
@@ -684,7 +684,7 @@ body.lock {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 100;
-  top: 70%;
+  top: 90%;
   height: 46px;
   width: 46px;
   border: 1px solid black;
