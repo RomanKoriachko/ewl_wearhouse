@@ -811,6 +811,7 @@ body.lock {
   padding: 100px 0px;
   justify-content: space-evenly;
   align-items: center;
+  gap: 15px;
 }
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-title {
   font-family: "Roboto Slab", serif;
@@ -836,6 +837,12 @@ body.lock {
 }
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .viber-img {
   background-image: url(images/viber-img.svg);
+}
+.footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .watsup-img {
+  background-image: url(images/watsup-img.svg);
+}
+.footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .mail-img {
+  background-image: url(images/mail-img.svg);
 }
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
   font-family: "Inter", sans-serif;
@@ -877,6 +884,9 @@ body.lock {
 }
 .footer .footer-links .facebook-link {
   background-image: url(images/facebook.svg);
+}
+.footer .footer-links .viber-link {
+  background-image: url(images/viber-img2.svg);
 }
 .footer .footer-links .instagram-link {
   background-image: url(images/instagram.svg);
@@ -1013,6 +1023,12 @@ body.lock {
   }
   .video-section .video-content {
     height: 460px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-title {
+    font-size: 40px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
+    font-size: 30px;
   }
 }
 @media (max-width: 992px) {
@@ -1469,6 +1485,9 @@ body.lock {
   }
   .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
     font-size: 24px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .mail-number {
+    font-size: 20px;
   }
   .footer .footer-links .social-media-links-wrapper {
     gap: 32px;

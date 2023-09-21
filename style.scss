@@ -600,6 +600,7 @@ body.lock {
             padding: 100px 0px;
             justify-content: space-evenly;
             align-items: center;
+            gap: 15px;
             .footer-contacts-title {
                 @include fonts.h1();
                 font-size: 48px;
@@ -620,6 +621,12 @@ body.lock {
                 }
                 .viber-img {
                     background-image: url(images/viber-img.svg);
+                }
+                .watsup-img {
+                    background-image: url(images/watsup-img.svg);
+                }
+                .mail-img {
+                    background-image: url(images/mail-img.svg);
                 }
                 .contact-number {
                     @include fonts.h3();
@@ -656,6 +663,9 @@ body.lock {
         }
         .facebook-link {
             background-image: url(images/facebook.svg);
+        }
+        .viber-link {
+            background-image: url(images/viber-img2.svg);
         }
         .instagram-link {
             background-image: url(images/instagram.svg);
@@ -786,6 +796,7 @@ body.lock {
             }
         }
     }
+
     .introduce-section {
         .introduce-section-video {
             height: 100%;
@@ -859,6 +870,21 @@ body.lock {
         }
         .video-content {
             height: 460px;
+        }
+    }
+
+    .footer {
+        .footer-bg {
+            .footer-contacts-wrapper {
+                .footer-contacts-title {
+                    font-size: 40px;
+                }
+                .footer-contacts-item {
+                    .contact-number {
+                        font-size: 30px;
+                    }
+                }
+            }
         }
     }
 }
@@ -1386,6 +1412,9 @@ body.lock {
                     }
                     .contact-number {
                         font-size: 24px;
+                    }
+                    .mail-number {
+                        font-size: 20px;
                     }
                 }
             }
